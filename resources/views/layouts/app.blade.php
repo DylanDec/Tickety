@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <title>{{ config('app.name') }} - @yield('pagetitle')</title>
-    <link rel="icon" type="image/x-icon" href="core/assets/img/favicon.ico'"/>
+    <link rel="icon" type="image/x-icon" href="{{ asset('core/assets/img/favicon.ico') }}'"/>
     <link href="core/assets/css/loader.css" rel="stylesheet" type="text/css" />
     <script src="core/assets/js/loader.js"></script>
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
@@ -21,11 +21,8 @@
     <!-- END ALERTS CSS -->
 
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
-    <link href="core/plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
-    <link href="core/assets/css/dashboard/dash_1.css" rel="stylesheet" type="text/css" />
-    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
-
     @yield('customstyles')
+    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 
 </head>
 <body class="sidebar-noneoverflow">
@@ -879,11 +876,10 @@
 <!-- END ALERTS SCRIPTS -->
 
 <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-<script src="core/plugins/apex/apexcharts.min.js"></script>
-<script src="core/assets/js/dashboard/dash_1.js"></script>
+@yield('customscripts')
 <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
 
-@yield('customscripts')
+
 
 </body>
 </html>

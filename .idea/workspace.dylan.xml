@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="45ccc2f5-86ee-4581-9b84-afcb7aa09e92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.dylan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.dylan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +143,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/core/login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/partials" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,10 +154,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\DEV\Tickety\resources\views" />
       <recent name="F:\DEV\Tickety\public\core\login" />
       <recent name="F:\DEV\Tickety\public\core" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\DEV\Tickety\resources\partials" />
       <recent name="F:\DEV\Tickety\public\core\login" />
       <recent name="F:\DEV\Tickety\public\core" />
       <recent name="F:\DEV\Tickety" />
@@ -181,7 +183,7 @@
       <updated>1589568581861</updated>
       <workItem from="1589568584871" duration="459000" />
       <workItem from="1589647678069" duration="29000" />
-      <workItem from="1589733750591" duration="4051000" />
+      <workItem from="1589733750591" duration="4286000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1589736808024</created>
@@ -190,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589736808024</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dashboard style">
+      <created>1589737981027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589737981027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,17 +212,18 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Dashboard style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dashboard style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589731589771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589731589771" />
-    <state x="585" y="116" key="CommitChangelistDialog2" timestamp="1589736795690">
+    <state x="585" y="116" key="CommitChangelistDialog2" timestamp="1589737979691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="116" key="CommitChangelistDialog2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589736795690" />
+    <state x="585" y="116" key="CommitChangelistDialog2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589737979691" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1589736981070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
