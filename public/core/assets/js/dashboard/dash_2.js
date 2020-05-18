@@ -13,7 +13,7 @@ try {
         ======================================
     */
 
-    
+
     // Total Visits
 
     var spark1 = {
@@ -210,7 +210,7 @@ try {
         }
         ]
     }
-    
+
 
     /*
         ===================================
@@ -239,7 +239,7 @@ try {
           bar: {
               horizontal: false,
               columnWidth: '55%',
-              endingShape: 'rounded'  
+              endingShape: 'rounded'
           },
       },
       dataLabels: {
@@ -264,11 +264,11 @@ try {
           colors: ['transparent']
       },
       series: [{
-          name: 'Direct',
-          data: [58, 44, 55, 57, 56, 61, 58, 63, 60, 66, 56, 63]
+          name: 'New Tickets',
+          data: [91, 33, 24, 57, 19, 85, 83, 13, 63, 66, 56, 63]
       }, {
-          name: 'Organic',
-          data: [91, 76, 85, 101, 98, 87, 105, 91, 114, 94, 66, 70]
+          name: 'Solved Tickets',
+          data: [60, 16, 12, 50, 10, 73, 41, 5, 40, 32, 42, 63]
       }],
       xaxis: {
           categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
@@ -429,7 +429,7 @@ try {
       },
     }
 
-    
+
 
 
     /*

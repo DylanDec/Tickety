@@ -51,8 +51,8 @@
                     <div class="widget-content">
                         <div class="account-box">
                             <div class="info">
-                                <h5 class="">Pro Plan</h5>
-                                <p class="inv-balance">$10,344</p>
+                                <h5 class="">Free Plan</h5>
+                                <p class="inv-balance">$0</p>
                             </div>
                             <div class="acc-action">
                                 <div class="">
@@ -71,12 +71,15 @@
                     <div class="widget-content">
                         <div class="w-content">
                             <div class="w-info">
-                                <h6 class="value">$ 45,141</h6>
-                                <p class="">Expenses</p>
+                                <h6 class="value">Development process</h6>
+                                <p class="">x %</p>
                             </div>
                             <div class="">
                                 <div class="w-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                                        <polyline xmlns="http://www.w3.org/2000/svg" points="4 17 10 11 4 5"/>
+                                        <line xmlns="http://www.w3.org/2000/svg" x1="12" y1="19" x2="20" y2="19"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -91,19 +94,7 @@
                 <div class="widget widget-chart-three">
                     <div class="widget-heading">
                         <div class="">
-                            <h5 class="">Unique Visitors</h5>
-                        </div>
-
-                        <div class="dropdown  custom-dropdown">
-                            <a class="dropdown-toggle" href="#" role="button" id="uniqueVisitors" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
-                            </a>
-
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="uniqueVisitors">
-                                <a class="dropdown-item" href="javascript:void(0);">View</a>
-                                <a class="dropdown-item" href="javascript:void(0);">Update</a>
-                                <a class="dropdown-item" href="javascript:void(0);">Download</a>
-                            </div>
+                            <h5 class="">Tickets</h5>
                         </div>
                     </div>
 

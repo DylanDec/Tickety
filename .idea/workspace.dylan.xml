@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="45ccc2f5-86ee-4581-9b84-afcb7aa09e92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.dylan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.dylan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/core/assets/js/dashboard/dash_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/core/assets/js/dashboard/dash_2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
@@ -199,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589737981027</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Main dashboard">
+      <created>1589782713887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589782713887</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,17 +222,18 @@
     </ignored-roots>
     <MESSAGE value="Initial" />
     <MESSAGE value="Dashboard style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dashboard style" />
+    <MESSAGE value="Main dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main dashboard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589731589771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589731589771" />
-    <state x="585" y="116" key="CommitChangelistDialog2" timestamp="1589737979691">
+    <state x="585" y="116" key="CommitChangelistDialog2" timestamp="1589782708203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="116" key="CommitChangelistDialog2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589737979691" />
+    <state x="585" y="116" key="CommitChangelistDialog2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589782708203" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1589736981070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,10 +247,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589736838130" />
-    <state x="767" y="264" width="1028" height="717" maximized="true" key="dock-window-1" timestamp="1589736561763">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2023" y="57" width="1017" height="1027" key="dock-window-1" timestamp="1589785429313">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="767" y="264" width="1028" height="717" maximized="true" key="dock-window-1/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589736561763" />
+    <state x="2023" y="57" width="1017" height="1027" key="dock-window-1/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589785429313" />
     <state x="1935" y="25" width="1028" height="1027" maximized="true" key="dock-window-2" timestamp="1589736218319">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -249,9 +259,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2292" y="131" width="1028" height="1027" maximized="true" key="dock-window-3/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589736561763" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589737162490">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589784205997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589737162490" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040/2560.-800.1280.760@0.0.1920.1040" timestamp="1589784205997" />
   </component>
 </project>

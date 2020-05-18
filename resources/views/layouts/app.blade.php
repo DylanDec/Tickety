@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <title>{{ config('app.name') }} - @yield('pagetitle')</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('core/assets/img/favicon.ico') }}'"/>
+    <link rel="icon" type="image/x-icon" href="core/assets/img/favicon.ico"/>
     <link href="core/assets/css/loader.css" rel="stylesheet" type="text/css" />
     <script src="core/assets/js/loader.js"></script>
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
@@ -44,7 +44,7 @@
                 </a>
             </li>
             <li class="nav-item theme-text">
-                <a href="index.html" class="nav-link"> CORK </a>
+                <a href="index.html" class="nav-link"> TICKETY </a>
             </li>
             <li class="nav-item toggle-sidebar">
                 <a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3" y2="6"></line><line x1="3" y1="12" x2="3" y2="12"></line><line x1="3" y1="18" x2="3" y2="18"></line></svg></a>
@@ -72,12 +72,7 @@
 
         <ul class="navbar-item flex-row search-ul">
             <li class="nav-item align-self-center search-animated">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search toggle-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                <form class="form-inline search-full form-inline search" role="search">
-                    <div class="search-bar">
-                        <input type="text" class="form-control search-form-control  ml-lg-auto" placeholder="Search...">
-                    </div>
-                </form>
+                {{-- TODO Vrije plek voor onzin --}}
             </li>
         </ul>
         <ul class="navbar-item flex-row navbar-dropdown">
@@ -226,8 +221,8 @@
                         <div class="media mx-auto">
                             <img src="core/assets/img/90x90.jpg" class="img-fluid mr-2" alt="avatar">
                             <div class="media-body">
-                                <h5>Sonia Shaw</h5>
-                                <p>Project Leader</p>
+                                <h5>{{ auth()->user()->name }}</h5>
+                                <p>{{ auth()->user()->title() }}</p>
                             </div>
                         </div>
                     </div>
@@ -272,8 +267,8 @@
                 <figure class="user-cover-image"></figure>
                 <div class="user-info">
                     <img src="core/assets/img/90x90.jpg" alt="avatar">
-                    <h6 class="">Sonia Shaw</h6>
-                    <p class="">Project Leader</p>
+                    <h6 class="">{{ auth()->user()->name }}</h6>
+                    <p class="">{{ auth()->user()->title() }}</p>
                 </div>
             </div>
             <div class="shadow-bottom"></div>
@@ -837,19 +832,7 @@
     <!--  END SIDEBAR  -->
 
     <!--  BEGIN CONTENT AREA  -->
-
     @yield('content')
-
-    <div id="content" class="main-content">
-        <div class="footer-wrapper">
-            <div class="footer-section f-section-1">
-                <p class="">Copyright © 20{{ date('y') }} Tickety, All rights reserved.</p>
-            </div>
-            <div class="footer-section f-section-2">
-                <p class="">Coded with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></p>
-            </div>
-        </div>
-    </div>
     <!--  END CONTENT AREA  -->
 
 

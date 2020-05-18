@@ -37,4 +37,31 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function title()
+    {
+        if(auth()->user()->hasRole('Helpdesk Administrator')) {
+            return "Helpdesk Administrator";
+        } else if (auth()->user()->hasRole('Helpdesk Coordinator')) {
+            return "Helpdesk Coordinator";
+        } else if (auth()->user()->hasRole('Helpdesk Specialist')) {
+            return "Helpdesk Specialist";
+        } else if (auth()->user()->hasRole('Helpdesk Team Lead')) {
+            return "Helpdesk Team Lead";
+        } else if (auth()->user()->hasRole('Helpdesk Supervisor')) {
+            return "Helpdesk Supervisor";
+        } else if (auth()->user()->hasRole('Helpdesk Senior Support')) {
+            return "Helpdesk Senior Support";
+        } else if (auth()->user()->hasRole('Helpdesk Support')) {
+            return "Helpdesk Support";
+        } else if (auth()->user()->hasRole('Helpdesk Senior Analyst')) {
+            return "Helpdesk Senior Analyst";
+        } else if (auth()->user()->hasRole('Helpdesk Analyst')) {
+            return "Helpdesk Analyst";
+        } else if (auth()->user()->hasRole('Guest')) {
+            return "Guest";
+        } else {
+            return "Unknown";
+        }
+    }
 }
